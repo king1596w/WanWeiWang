@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F83C4BC1666F607003CCE43 /* ZiXunVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F83C4BB1666F607003CCE43 /* ZiXunVC.m */; };
+		0F83C4C016670758003CCE43 /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F83C4BF16670757003CCE43 /* SettingVC.m */; };
+		0F83C4C316670774003CCE43 /* TiJianVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F83C4C216670774003CCE43 /* TiJianVC.m */; };
+		0F83C4C61667078E003CCE43 /* JieXiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F83C4C51667078E003CCE43 /* JieXiVC.m */; };
+		0F83C4C9166707A9003CCE43 /* ChaXunVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F83C4C8166707A9003CCE43 /* ChaXunVC.m */; };
+		0F83C4CB166709B6003CCE43 /* suffix_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F83C4CA166709B6003CCE43 /* suffix_background.png */; };
+		0F83C4D216672C06003CCE43 /* ZiXunCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F83C4D116672C06003CCE43 /* ZiXunCell.m */; };
+		0F83C4D416672D4B003CCE43 /* 文件.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F83C4D316672D4B003CCE43 /* 文件.png */; };
+		0F83C4D6166733D4003CCE43 /* 横条背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F83C4D5166733D4003CCE43 /* 横条背景.png */; };
+		0F83C4D8166733D9003CCE43 /* 按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F83C4D7166733D9003CCE43 /* 按下.png */; };
+		0F883B261665B4FF00E40F31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F883B251665B4FF00E40F31 /* UIKit.framework */; };
+		0F883B281665B4FF00E40F31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F883B271665B4FF00E40F31 /* Foundation.framework */; };
+		0F883B2A1665B4FF00E40F31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F883B291665B4FF00E40F31 /* CoreGraphics.framework */; };
+		0F883B301665B4FF00E40F31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F883B2E1665B4FF00E40F31 /* InfoPlist.strings */; };
+		0F883B321665B4FF00E40F31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F883B311665B4FF00E40F31 /* main.m */; };
+		0F883B361665B4FF00E40F31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F883B351665B4FF00E40F31 /* AppDelegate.m */; };
+		0F883B4C1665B75B00E40F31 /* background_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F883B441665B75B00E40F31 /* background_home.png */; };
+		0F883B4D1665B75B00E40F31 /* home0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F883B451665B75B00E40F31 /* home0.png */; };
+		0F883B4E1665B75B00E40F31 /* home1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F883B461665B75B00E40F31 /* home1.png */; };
+		0F883B4F1665B75B00E40F31 /* home2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F883B471665B75B00E40F31 /* home2.png */; };
+		0F883B501665B75B00E40F31 /* home3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F883B481665B75B00E40F31 /* home3.png */; };
+		0F883B511665B75B00E40F31 /* monitor_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F883B491665B75B00E40F31 /* monitor_home.png */; };
+		0F883B521665B75B00E40F31 /* scoll_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F883B4A1665B75B00E40F31 /* scoll_home.png */; };
+		0F883B531665B75B00E40F31 /* home4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F883B4B1665B75B00E40F31 /* home4.png */; };
+		0F883B561665B85800E40F31 /* RootViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F883B551665B85800E40F31 /* RootViewC.m */; };
+		0F883B831666043500E40F31 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F883B821666043500E40F31 /* QuartzCore.framework */; };
+		0F883B941666404F00E40F31 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F883B931666404F00E40F31 /* iCarousel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F83C4BA1666F607003CCE43 /* ZiXunVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZiXunVC.h; sourceTree = "<group>"; };
+		0F83C4BB1666F607003CCE43 /* ZiXunVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZiXunVC.m; sourceTree = "<group>"; };
+		0F83C4BE16670757003CCE43 /* SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
+		0F83C4BF16670757003CCE43 /* SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
+		0F83C4C116670774003CCE43 /* TiJianVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiJianVC.h; sourceTree = "<group>"; };
+		0F83C4C216670774003CCE43 /* TiJianVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiJianVC.m; sourceTree = "<group>"; };
+		0F83C4C41667078E003CCE43 /* JieXiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JieXiVC.h; sourceTree = "<group>"; };
+		0F83C4C51667078E003CCE43 /* JieXiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JieXiVC.m; sourceTree = "<group>"; };
+		0F83C4C7166707A9003CCE43 /* ChaXunVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaXunVC.h; sourceTree = "<group>"; };
+		0F83C4C8166707A9003CCE43 /* ChaXunVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaXunVC.m; sourceTree = "<group>"; };
+		0F83C4CA166709B6003CCE43 /* suffix_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suffix_background.png; sourceTree = "<group>"; };
+		0F83C4D016672C06003CCE43 /* ZiXunCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZiXunCell.h; sourceTree = "<group>"; };
+		0F83C4D116672C06003CCE43 /* ZiXunCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZiXunCell.m; sourceTree = "<group>"; };
+		0F83C4D316672D4B003CCE43 /* 文件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文件.png"; sourceTree = "<group>"; };
+		0F83C4D5166733D4003CCE43 /* 横条背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "横条背景.png"; sourceTree = "<group>"; };
+		0F83C4D7166733D9003CCE43 /* 按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按下.png"; sourceTree = "<group>"; };
+		0F883B211665B4FF00E40F31 /* WanWeiWang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanWeiWang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F883B251665B4FF00E40F31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F883B271665B4FF00E40F31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F883B291665B4FF00E40F31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F883B2D1665B4FF00E40F31 /* WanWeiWang-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WanWeiWang-Info.plist"; sourceTree = "<group>"; };
+		0F883B2F1665B4FF00E40F31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F883B311665B4FF00E40F31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F883B331665B4FF00E40F31 /* WanWeiWang-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WanWeiWang-Prefix.pch"; sourceTree = "<group>"; };
+		0F883B341665B4FF00E40F31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F883B351665B4FF00E40F31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F883B441665B75B00E40F31 /* background_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_home.png; sourceTree = "<group>"; };
+		0F883B451665B75B00E40F31 /* home0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home0.png; sourceTree = "<group>"; };
+		0F883B461665B75B00E40F31 /* home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home1.png; sourceTree = "<group>"; };
+		0F883B471665B75B00E40F31 /* home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home2.png; sourceTree = "<group>"; };
+		0F883B481665B75B00E40F31 /* home3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home3.png; sourceTree = "<group>"; };
+		0F883B491665B75B00E40F31 /* monitor_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monitor_home.png; sourceTree = "<group>"; };
+		0F883B4A1665B75B00E40F31 /* scoll_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scoll_home.png; sourceTree = "<group>"; };
+		0F883B4B1665B75B00E40F31 /* home4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home4.png; sourceTree = "<group>"; };
+		0F883B541665B85800E40F31 /* RootViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewC.h; sourceTree = "<group>"; };
+		0F883B551665B85800E40F31 /* RootViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewC.m; sourceTree = "<group>"; };
+		0F883B821666043500E40F31 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0F883B921666404E00E40F31 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		0F883B931666404F00E40F31 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F883B1E1665B4FF00E40F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F883B831666043500E40F31 /* QuartzCore.framework in Frameworks */,
+				0F883B261665B4FF00E40F31 /* UIKit.framework in Frameworks */,
+				0F883B281665B4FF00E40F31 /* Foundation.framework in Frameworks */,
+				0F883B2A1665B4FF00E40F31 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F883B161665B4FE00E40F31 = {
+			isa = PBXGroup;
+			children = (
+				0F883B821666043500E40F31 /* QuartzCore.framework */,
+				0F883B2B1665B4FF00E40F31 /* WanWeiWang */,
+				0F883B241665B4FF00E40F31 /* Frameworks */,
+				0F883B221665B4FF00E40F31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F883B221665B4FF00E40F31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F883B211665B4FF00E40F31 /* WanWeiWang.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F883B241665B4FF00E40F31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F883B251665B4FF00E40F31 /* UIKit.framework */,
+				0F883B271665B4FF00E40F31 /* Foundation.framework */,
+				0F883B291665B4FF00E40F31 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F883B2B1665B4FF00E40F31 /* WanWeiWang */ = {
+			isa = PBXGroup;
+			children = (
+				0F883B921666404E00E40F31 /* iCarousel.h */,
+				0F883B931666404F00E40F31 /* iCarousel.m */,
+				0F883B341665B4FF00E40F31 /* AppDelegate.h */,
+				0F883B351665B4FF00E40F31 /* AppDelegate.m */,
+				0F883B541665B85800E40F31 /* RootViewC.h */,
+				0F883B551665B85800E40F31 /* RootViewC.m */,
+				0F83C4BA1666F607003CCE43 /* ZiXunVC.h */,
+				0F83C4BB1666F607003CCE43 /* ZiXunVC.m */,
+				0F83C4D016672C06003CCE43 /* ZiXunCell.h */,
+				0F83C4D116672C06003CCE43 /* ZiXunCell.m */,
+				0F83C4BE16670757003CCE43 /* SettingVC.h */,
+				0F83C4BF16670757003CCE43 /* SettingVC.m */,
+				0F83C4C116670774003CCE43 /* TiJianVC.h */,
+				0F83C4C216670774003CCE43 /* TiJianVC.m */,
+				0F83C4C41667078E003CCE43 /* JieXiVC.h */,
+				0F83C4C51667078E003CCE43 /* JieXiVC.m */,
+				0F83C4C7166707A9003CCE43 /* ChaXunVC.h */,
+				0F83C4C8166707A9003CCE43 /* ChaXunVC.m */,
+				0F883B2C1665B4FF00E40F31 /* Supporting Files */,
+			);
+			path = WanWeiWang;
+			sourceTree = "<group>";
+		};
+		0F883B2C1665B4FF00E40F31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F883B431665B73000E40F31 /* Images */,
+				0F883B2D1665B4FF00E40F31 /* WanWeiWang-Info.plist */,
+				0F883B2E1665B4FF00E40F31 /* InfoPlist.strings */,
+				0F883B311665B4FF00E40F31 /* main.m */,
+				0F883B331665B4FF00E40F31 /* WanWeiWang-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F883B431665B73000E40F31 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0F83C4D7166733D9003CCE43 /* 按下.png */,
+				0F83C4D316672D4B003CCE43 /* 文件.png */,
+				0F83C4D5166733D4003CCE43 /* 横条背景.png */,
+				0F83C4CA166709B6003CCE43 /* suffix_background.png */,
+				0F883B441665B75B00E40F31 /* background_home.png */,
+				0F883B451665B75B00E40F31 /* home0.png */,
+				0F883B461665B75B00E40F31 /* home1.png */,
+				0F883B471665B75B00E40F31 /* home2.png */,
+				0F883B481665B75B00E40F31 /* home3.png */,
+				0F883B491665B75B00E40F31 /* monitor_home.png */,
+				0F883B4A1665B75B00E40F31 /* scoll_home.png */,
+				0F883B4B1665B75B00E40F31 /* home4.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F883B201665B4FF00E40F31 /* WanWeiWang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F883B391665B4FF00E40F31 /* Build configuration list for PBXNativeTarget "WanWeiWang" */;
+			buildPhases = (
+				0F883B1D1665B4FF00E40F31 /* Sources */,
+				0F883B1E1665B4FF00E40F31 /* Frameworks */,
+				0F883B1F1665B4FF00E40F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WanWeiWang;
+			productName = WanWeiWang;
+			productReference = 0F883B211665B4FF00E40F31 /* WanWeiWang.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F883B181665B4FE00E40F31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0F883B1B1665B4FE00E40F31 /* Build configuration list for PBXProject "WanWeiWang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F883B161665B4FE00E40F31;
+			productRefGroup = 0F883B221665B4FF00E40F31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F883B201665B4FF00E40F31 /* WanWeiWang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F883B1F1665B4FF00E40F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F883B301665B4FF00E40F31 /* InfoPlist.strings in Resources */,
+				0F883B4C1665B75B00E40F31 /* background_home.png in Resources */,
+				0F883B4D1665B75B00E40F31 /* home0.png in Resources */,
+				0F883B4E1665B75B00E40F31 /* home1.png in Resources */,
+				0F883B4F1665B75B00E40F31 /* home2.png in Resources */,
+				0F883B501665B75B00E40F31 /* home3.png in Resources */,
+				0F883B511665B75B00E40F31 /* monitor_home.png in Resources */,
+				0F883B521665B75B00E40F31 /* scoll_home.png in Resources */,
+				0F883B531665B75B00E40F31 /* home4.png in Resources */,
+				0F83C4CB166709B6003CCE43 /* suffix_background.png in Resources */,
+				0F83C4D416672D4B003CCE43 /* 文件.png in Resources */,
+				0F83C4D6166733D4003CCE43 /* 横条背景.png in Resources */,
+				0F83C4D8166733D9003CCE43 /* 按下.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F883B1D1665B4FF00E40F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F883B321665B4FF00E40F31 /* main.m in Sources */,
+				0F883B361665B4FF00E40F31 /* AppDelegate.m in Sources */,
+				0F883B561665B85800E40F31 /* RootViewC.m in Sources */,
+				0F883B941666404F00E40F31 /* iCarousel.m in Sources */,
+				0F83C4BC1666F607003CCE43 /* ZiXunVC.m in Sources */,
+				0F83C4C016670758003CCE43 /* SettingVC.m in Sources */,
+				0F83C4C316670774003CCE43 /* TiJianVC.m in Sources */,
+				0F83C4C61667078E003CCE43 /* JieXiVC.m in Sources */,
+				0F83C4C9166707A9003CCE43 /* ChaXunVC.m in Sources */,
+				0F83C4D216672C06003CCE43 /* ZiXunCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F883B2E1665B4FF00E40F31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F883B2F1665B4FF00E40F31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F883B371665B4FF00E40F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F883B381665B4FF00E40F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F883B3A1665B4FF00E40F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WanWeiWang/WanWeiWang-Prefix.pch";
+				INFOPLIST_FILE = "WanWeiWang/WanWeiWang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F883B3B1665B4FF00E40F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WanWeiWang/WanWeiWang-Prefix.pch";
+				INFOPLIST_FILE = "WanWeiWang/WanWeiWang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F883B1B1665B4FE00E40F31 /* Build configuration list for PBXProject "WanWeiWang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F883B371665B4FF00E40F31 /* Debug */,
+				0F883B381665B4FF00E40F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F883B391665B4FF00E40F31 /* Build configuration list for PBXNativeTarget "WanWeiWang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F883B3A1665B4FF00E40F31 /* Debug */,
+				0F883B3B1665B4FF00E40F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F883B181665B4FE00E40F31 /* Project object */;
+}
